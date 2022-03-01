@@ -1,0 +1,8 @@
+
+[{"isim":"BOL SOSLU CHEDARLI HAMBURGER",
+  "foto":"https://www.soke.com.tr/Files/tarifler/HamburgerEkmegi3.jpg",
+  "id":1,
+  "fiyat":30,
+  "subtotal":30,
+  "adet":1,
+  "not":"Ketçap olmasın","key":1}]
