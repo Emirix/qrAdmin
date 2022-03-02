@@ -26,7 +26,7 @@ function Kampanya() {
     
       <div className="row">
       <h5>Kampanya Yöneticisi</h5>
-        <div className="col-6">
+        <div className="col-12 col-lg-6">
           <div className="kutu mt-4 p-2">
             <h6 className="m-0">Ekle</h6>
             <p className="text-secondary">Kampanyalı ürünlere ekleme yap.</p>
@@ -57,7 +57,11 @@ function Kampanya() {
           </form>
           </div>
           
-          <div className="mt-5 kutu p-2">
+          
+        </div>
+
+        <div className="col-12 col-lg-6">
+        <div className="mt-5 kutu p-2">
             <h6>Kampanyalı Ürünler</h6>
           <table className="mt-3 table table-striped">
             <thead>

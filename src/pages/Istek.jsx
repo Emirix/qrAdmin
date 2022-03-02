@@ -108,8 +108,8 @@ function Istek() {
             </div>
             <div className="col-lg-6">
                 <div className="kutu p-2">
-                <h5>İstek Kısayolu Ekle</h5>
-                <form className='mt-4' onSubmit={e=>addKisayol(e)}>
+                <h5 className='mt-0'>İstek Kısayolu Ekle</h5>
+                <form className='' onSubmit={e=>addKisayol(e)}>
                 <div className="form-floating">
                     <input type="text" className="form-control" id="floatingPassword" placeholder="Password"/>
                     <label htmlFor="floatingPassword">Başlık</label>
@@ -118,7 +118,7 @@ function Istek() {
                 </form>
                 </div>
                 <div className="kutu p-2 mt-3">
-                <h4 className='mt-5'>İstek Kısayolları</h4>
+                <h4 className='mt-0'>İstek Kısayolları</h4>
                 <table className='table mt-3 emir-table'>
                     <thead>
                         <tr>

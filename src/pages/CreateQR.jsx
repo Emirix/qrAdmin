@@ -35,7 +35,7 @@ export default function CreateQR() {
       {resim == null ? (
         <div
           style={{ width: 300, height: 300 }}
-          className="text-center bg-white text-secondary my-5 border d-flex justify-content-center align-items-center"
+          className="text-center bg-white text-secondary my-3 border d-flex justify-content-center align-items-center"
         >
           Oluşturulan Kod Burada Gösterilecek
         </div>

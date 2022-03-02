@@ -7,7 +7,7 @@ function Yorumlar() {
   const [yorumlar, setYorumlar] = useState(null)
   const [update,setUpdate] = useState(0)
   useEffect(()=>{
-    axios.get("/restoran/yorumlar/all/"+localStorage.getItem("admin_id")).then(res=>{
+    axios.get("/restoran/yorumlar/all/"+localStorage.getItem("admin_slug")).then(res=>{
       console.log(res.data)
       setYorumlar(res.data)
     })

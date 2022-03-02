@@ -83,7 +83,7 @@ function Paket() {
                       <p className="fs-4 text-secondary mb-2">{val.adres}</p>
                   </div>
     
-                  <div className="insta text-center">
+                  <div className="insta text-center instabtn">
                       <small><b>DURUM</b></small>
                       <p className="mb-2">
                       {val.durum == "yeni" ? 

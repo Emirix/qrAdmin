@@ -86,7 +86,7 @@ function KategoriListe() {
   return (
     <div className="sayfa">
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-12 col-lg-6">
         <div className="kutu p-2">
             <h6 className="m-0">Ekle</h6>
             <form className="mt-0" onSubmit={(e) => submit(e)}>
@@ -120,7 +120,7 @@ function KategoriListe() {
                   className="form-control w-100 "
                   id="floatingInput2"
                   placeholder="Yeni İsim"
-                  style={{ width: "250px" }}
+                  style={{ width: "230px" }}
                 />
                 <label htmlFor="floatingInput2">Yeni İsim</label>
               </div>
@@ -195,7 +195,7 @@ function KategoriListe() {
           </div>
     
         </div>
-        <div className="col-lg-6">
+        <div className="col-12 col-lg-6">
           <ToastContainer
             position="bottom-center"
             autoClose={5000}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import axios from "axios";
-function Sidebar() {
+function Sidebar({ayar}) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -19,14 +19,14 @@ function Sidebar() {
   console.log(location);
   if (!location.pathname.includes("login")) {
     return (
-      <div className="flex-shrink-0 p-3 bg-white" style={{ width: "238px" }}>
+      <div className="sidebar flex-shrink-0 p-3 bg-white" style={{ width: "238px" }}>
         <Link
           to="/"
           className="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"
         >
           <img
             className="img-fluid"
-            src={data && axios.defaults.baseURL + "/logo/" + data[0].logo}
+            src={ayar}
             alt=""
           />{" "}
         </Link>

@@ -65,8 +65,8 @@ function IslemdekiSiparisler() {
   }
 
   return (
-    <div className="sayfa">
-      <div className="d-flex justify-content-between align-items-center">
+    <div className="sayfa is">
+      <div className="flex-wrap d-flex justify-content-between align-items-center">
         <h1>İşlemdeki Siparişler</h1>
         <div className="btn-group" role="group" aria-label="Basic example">
           <button
@@ -156,7 +156,7 @@ function IslemdekiSiparisler() {
                           <p className="fs-4 text-secondary mb-2">{a.masa}</p>
                         </div>
 
-                        <div className="insta text-center">
+                        <div className="insta text-center instabtn">
                           <small>
                             <b>DURUM</b>
                           </small>
@@ -341,3 +341,4 @@ function IslemdekiSiparisler() {
 }
 
 export default IslemdekiSiparisler;
+

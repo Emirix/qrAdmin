@@ -27,14 +27,16 @@ function MesajGonder() {
   },[])
   return (
     <div className='sayfa'>
-        <h1>Mesaj Gönder</h1>
+       <div className="col-12 col-lg-6">
+      <div className='kutu p-2'>
+        <h5>Mesaj Gönder</h5>
         <p className="text-secondary">Sistemi kullanan müşterilere mesaj gönderebilirsiniz</p>
 
 
-       <div className="col-md-6">
+      
        <form onSubmit={e=> e.target[1].value != "" ? submit(e) : e.preventDefault()}>
            
-        <select class="mb-3  form-select form-select-sm" aria-label=".form-select-sm example">
+        <select class="mb-3  form-select form-select-sm" aria-label="form-select-sm example">
         <option selected value="all">Tüm masalara gönder</option>
         {masalar && masalar.map(val=>{
             return(
@@ -46,6 +48,7 @@ function MesajGonder() {
             <input placeholder='Mesaj giriniz' type="text" className='form-control my-3' />
             <button type="submit" className='btn btn-primary'>Gönder</button>
         </form>
+       </div>
        </div>
     
     </div>
